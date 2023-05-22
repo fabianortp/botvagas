@@ -12,5 +12,6 @@ No caso de empresas parceiras, como a Landing.Jobs, as vagas devem ser encaminha
 Cada pessoa que pegar um crawler para fazer, por favor mantenha o status atualizado aqui nesta tabela.
 
 | Empresa | Situação do crawler | Responsável |
+|---|---|---|
 | Landing.Jobs | Coleta de dados pronta. Aguardando apenas schema GraphQL para organizar os dados. | Ed de Almeida |
 
