@@ -11,4 +11,4 @@ const Landing = {
   }
 }
 
-Landing.run()
+export default Landing;
