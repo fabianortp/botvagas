@@ -7,6 +7,7 @@ const Landing = {
 
   run: async function () {
     let resp = await this.fetchData()
+    // console.log(Object.keys(resp))
     console.log(resp.offers)
   }
 }
