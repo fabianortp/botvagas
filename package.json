@@ -10,26 +10,19 @@
   ],
   "private": true,
   "scripts": {
-    "start": "node index.js"
+    "dev": "npx nodemon --exec babel-node index.js"
   },
   "dependencies": {
-    "apollo-server": "^3.12.0",
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
     "dotenv": "^16.0.3",
-    "express": "~4.18.2",
-    "express-rate-limit": "^6.7.0",
     "graphql": "^16.6.0",
     "http-errors": "~1.6.3",
-    "morgan": "~1.9.1"
+    "mongoose": "^7.2.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.21.5",
     "@babel/core": "^7.21.8",
     "@babel/node": "^7.20.7",
     "@babel/preset-env": "^7.21.5",
-    "nodemon": "^2.0.20",
-    "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1"
+    "nodemon": "^2.0.20"
   }
 }
